@@ -34,8 +34,8 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('', 'dockerhub') {
-                        sh "docker build -t chakorn/nodejs:latest"
-                        //def slackImage = docker.build("${env.image}:${BUILD_NUMBER}")
+                        //sh "docker build -t chakorn/nodejs:latest"
+                        def slackImage = docker.build("${env.image}:${BUILD_NUMBER}")
                         slackImage.push()
                         slackImage.push('latest')
                     }
