@@ -1,0 +1,10 @@
+Started by user [8mha:////4AAcEvvR9Y2YjA8toKJetpwxEF6uBOZ9JBt10OyqgvkNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgZu/dLi1CL9xJTczDwAKOUF0MAAAAA=[0mchakorn panasutakarn
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/demo-job
+[demo-job] $ /bin/sh -xe /tmp/jenkins9732998768539910574.sh
++ docker ps
+CONTAINER ID   IMAGE                    COMMAND                  CREATED       STATUS       PORTS                                                                                             NAMES
+d0faa733ca28   chakorn/nodejs:latest    "docker-entrypoint.s…"   6 hours ago   Up 6 hours   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp                                                         nodejs
+7fb42e1d15d9   mongo:latest             "docker-entrypoint.s…"   6 hours ago   Up 6 hours   0.0.0.0:27017->27017/tcp, :::27017->27017/tcp                                                     mongoDB
+81a7af24f701   jenkins/jenkins:latest   "/usr/bin/tini -- /u…"   7 hours ago   Up 7 hours   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp, 50000/tcp, 0.0.0.0:8888->8080/tcp, :::8888->8080/tcp   jenkins
+Finished: SUCCESS

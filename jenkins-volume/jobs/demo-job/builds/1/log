@@ -1,0 +1,8 @@
+Started by user [8mha:////4AAcEvvR9Y2YjA8toKJetpwxEF6uBOZ9JBt10OyqgvkNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgZu/dLi1CL9xJTczDwAKOUF0MAAAAA=[0mchakorn panasutakarn
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/demo-job
+[demo-job] $ /bin/sh -xe /tmp/jenkins5988110622731118284.sh
++ docker ps
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS                                                                                             NAMES
+81a7af24f701   jenkins/jenkins:latest   "/usr/bin/tini -- /u…"   43 minutes ago   Up 11 minutes   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp, 50000/tcp, 0.0.0.0:8888->8080/tcp, :::8888->8080/tcp   jenkins
+Finished: SUCCESS
