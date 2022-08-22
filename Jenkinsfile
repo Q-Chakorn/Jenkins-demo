@@ -1,8 +1,8 @@
 pipeline {
 
-    agent {
-        label 'any'
-    }
+    //agent {
+    //    label 'any'
+    //}
 
     environment {
         image = "atisak/demo-nodejs"
